@@ -86,10 +86,11 @@ body {
   
   .title-image {
     width: 100%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 30%;
-    padding-bottom: 100px;
+
+   
+    right: 10%;
+    
+    
     
     
   }
@@ -120,7 +121,7 @@ body {
   /* Testimonial Section */
   
   #testimonials {
-    background-color: #EE4B2B;
+    background-color: #E39ff6;
   }
   
   .testimonial-text {
@@ -136,7 +137,7 @@ body {
   
   
   #press {
-    background-color: #EE4B2B;
+    background-color: #E39ff6;
     padding-bottom: 3%;
   }
   
@@ -172,14 +173,16 @@ body {
   
   @media (max-width: 1028px) {
   
+
     #title {
       text-align: center;
     }
   
     .title-image {
-     
-      position: static;
-      margin: 100px;
+      padding: 30px;
+     width: 10rem;
+      
+      margin: 10px;
       transform: rotate(0);
     }
   }
@@ -188,15 +191,15 @@ body {
    margin-right: 300px;
     display: flex;
     align-items: left;
-  
+    
   }
   .biryani{
-    width: 400px;
+    width: 50%;
   }
   
   #TOLA{
     color: #fff;
-    background-color: #EE4B2B
+    background-color: #E39ff6
   
   }
   
@@ -204,4 +207,13 @@ body {
     size: 1px;
     display: inline;
     width: 400px;
+  }
+
+  .loba-img{
+    width: 60%;
+    padding-top: 7%;
+  }
+
+  #lobah1{
+margin-top: 50px;
   }
